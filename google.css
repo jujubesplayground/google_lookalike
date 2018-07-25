@@ -14,7 +14,10 @@ html, body{
 }
 
 input{
-    width: 200%;
+    width: 678px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 36px;
 }
 
 .search_bar{
