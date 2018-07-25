@@ -1,0 +1,27 @@
+html, body{
+    margin:0;
+}
+
+.logo-image{
+    width : 400px;
+}
+
+.logo{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 180px;
+}
+
+input{
+    width: 200%;
+}
+
+.search_bar{
+    margin:auto;
+    width: 30%;
+}
+
+.bottom{
+    margin-bottom:0px;
+}
