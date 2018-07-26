@@ -1,5 +1,5 @@
 html, body{
-    margin:0;
+    height: 100%;
 }
 
 .logo-image{
@@ -15,16 +15,36 @@ html, body{
 
 input{
     width: 678px;
-    margin-right: auto;
-    margin-left: auto;
     height: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lucky_table{
+    width: 678px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lucky_table_col{
+    width: 339px;
+    align-content: right;
+}
+
+button_left{
 }
 
 .search_bar{
-    margin:auto;
-    width: 30%;
+    width: 678px;
 }
 
 .bottom{
-    margin-bottom:0px;
+    bottom:0px;
+    position: absolute;
+}
+
+.middle_celle{
+    column-width: 100px;
 }
