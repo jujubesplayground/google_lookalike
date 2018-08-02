@@ -28,6 +28,8 @@ input{
 .lucky_table{
     width: 678px;
     display: block;
+    text-align: center;
+    margin-top: 18px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -64,6 +66,8 @@ button{
     text-align: center;
     font-size: 18px;
     width: 200px;
+    padding: 10px;
+    font-weight: bold;
     right: 0%;
 }
 
