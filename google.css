@@ -2,6 +2,10 @@ html, body{
     height: 100%;
 }
 
+body, td, a, button{
+    font-family: arial,sans-serif;
+}
+
 .logo-image{
     width : 400px;
 }
@@ -33,18 +37,56 @@ input{
     align-content: right;
 }
 
-button_left{
-}
+
 
 .search_bar{
     width: 678px;
 }
 
-.bottom{
-    bottom:0px;
-    position: absolute;
+
+
+.middle_cell{
+    column-width: 530px;
 }
 
-.middle_celle{
-    column-width: 100px;
+.luck{
+    display: inline-block;
+    width: 330px;
+    margin-top: 50px;
+    clear: both;
+    padding-right: 0px;
 }
+
+
+button{
+    border:none;
+    color: grey;
+    text-align: center;
+    font-size: 18px;
+    width: 200px;
+    right: 0%;
+}
+
+.button_left{
+    right: 0%;
+}
+
+.bottom{
+    bottom:10px;
+    position: absolute;
+    color: dimgrey;
+    font-size: 18px;
+    padding-left:15px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.bottom_link{
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    color: dimgrey;
+    font-size: 18px;
+    text-decoration: none;
+}
+
