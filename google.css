@@ -7,7 +7,11 @@ body, td, a, button{
 }
 
 .logo-image{
-    width : 400px;
+    width : 330px;
+}
+
+.top{
+    text-align: right;
 }
 
 .logo{
@@ -73,10 +77,15 @@ input{
     padding-right: 0px;
 }
 
+button:hover{
+    border: 1px solid rgb(211, 209, 209);
+}
 
 button{
     border:none;
+    
     color: grey;
+    background-color: rgb(245, 240, 240);
     text-align: center;
     font-size: 18px;
     width: 200px;
